@@ -1,29 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <article class="project-detail">
-  <p class="project-date">Summer 2025</p>
-  <h2>Custom Desk Organizer</h2>
-
-  <img
-    class="project-hero"
-    src="images/desk-organizer/finished.jpg"
-    alt="Completed custom desk organizer"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Johnna's personal projects"
   >
+  <title>Personal Projects | Johnna Szkudlarek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <p>
-    I designed and built this organizer to fit a limited desk space while
-    keeping frequently used tools accessible.
-  </p>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="site-name" href="index.html">Johnna Szkudlarek</a>
 
-  <h3>What I Used</h3>
-  <p>CAD, 3D printing, threaded inserts, and hand assembly</p>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" >Engineering Projects</a>
+        <a href="personal-projects.html" aria-current="page">Personal Projects</a>
+        <a href="resume.pdf">Résumé</a>
+      </div>
+    </nav>
+  </header>
 
-  <h3>What I Learned</h3>
-  <p>
-    The first version had insufficient clearance between drawers, so I
-    increased the gap and changed the print orientation in version two.
-  </p>
-</article>
+  <main>
+    <section class="page-heading">
+      <p class="eyebrow">Design · Fabrication · Fun</p>
+      <h1>Personal Projects</h1>
+      <p>
+        Below lists my personal projects which includes random 
+        hobbies I've picked up and my welding progress.
+      </p>
+    </section>
+
+    <!--
+      IMAGE NOTE:
+      The image names below are suggestions. Rename your own image files to
+      match these paths, or change each src="..." to match your filenames.
+    -->
+
+    <article class="project-detail" id="Calligraphy">
+      <div class="project-heading">
+        <div>
+          <p class="project-date">January 2026</p>
+          <h2>Calligraphy</h2>
+        </div>
+        <p class="project-tags">
+          Design · Creativity
+        </p>
+        <img
+        src="images/Portafilter_teardown.jpg"
+        alt="Coffee portafilter exploded view"
+          >
+      </div>
+      
+
+      <h3>Project Overview</h3>
+      <p>
+       This is me practicing Gothic lettering with a 0.4 mm nib calligraphy pen.
+      </p>
+    </article>
+
+    <article class="project-detail" id="portafilter">
+      <div class="project-heading">
+        <div>
+          <p class="project-date">Fall 2026</p>
+          <h2>Coffee Portafilter Reverse Engineering</h2>
+          <p>Engineering Design Course Project</p>
+        </div>
+        <p class="project-tags">
+          Reverse Engineering · Manufacturing · Cost Analysis · Materials
+        </p>
+      </div>
+
+      <img
+        src="images/Portafilter_teardown.jpg"
+        alt="Coffee portafilter exploded view"
+      >
+
+      <h3>Objective</h3>
+      <p>
+        My partner and I disassembled and analyzed a commercial coffee portafilter to
+        determine to identify likely materials, manufacturing processes, and 
+        estimate its production cost at a volume
+        of 1,000 units.
+      </p>
+
+      <h3>Engineering Process</h3>
+      <ul>
+        <li>Documented the product's components, dimensions, and assembly.</li>
+        <li>
+          Evaluated likely processes including polypropylene and TPE injection
+          molding and machining of stainless-steel components.
+        </li>
+        <li>
+          Considered material, labor, tooling, facility, assembly, and
+          marketing costs in the production estimate.
+        </li>
+        <li>
+          Estimated a retail price of $35 (actually $100 listed) and a production cost of about $20
+          per unit at a quantity of 1,000.
+        </li>
+      </ul>
+
+      <div class="image-row">
+        <figure>
+          <img
+            src="images/Portafilter_whole.jpg"
+            alt="Portafilter before breakdown"
+          >
+          <figcaption>Component identification and measurements</figcaption>
+        </figure>
+
+      </div>
+    </article>
+
+    <article class="project-detail" id="formula-sae">
+      <div class="project-heading">
+        <div>
+          <p class="project-date">January 2025–Present</p>
+          <h2>Formula SAE Race Car</h2>
+          <p>Harvard Undergraduate Automotive Society · Manufacturing Lead</p>
+        </div>
+        <p class="project-tags">
+          Mechanical Design · TIG Welding · Rule Compliance · Vehicle Systems
+        </p>
+      </div>
+
+      <img
+        class="project-hero"
+        src="images/formula-sae/race-car.jpg"
+        alt="Harvard Formula SAE internal-combustion race car"
+      >
+
+      <h3>Project Overview</h3>
+      <p>
+        I contribute to the design and fabrication of an internal-combustion
+        Formula SAE race car.
+      </p>
+
+      <h3>My Contributions</h3>
+      <ul>
+        <li>Redesigned the race car's pedal box.</li>
+        <li>
+          TIG welded steel chassis tabs supporting the rear suspension and
+          engine installation.
+        </li>
+        <li>
+          Researched and designed a heat shield to comply with Formula SAE
+          rules.
+        </li>
+      </ul>
+
+      <div class="image-row">
+        <figure>
+          <img
+            src="images/formula-sae/pedal-box.jpg"
+            alt="Pedal-box design for the Formula SAE race car"
+          >
+          <figcaption>Pedal-box redesign</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/formula-sae/welding.jpg"
+            alt="TIG-welded chassis tabs on the Formula SAE car"
+          >
+          <figcaption>Chassis-tab fabrication and welding</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="project-detail" id="rover-chassis">
+      <div class="project-heading">
+        <div>
+          <p class="project-date">May–August 2025</p>
+          <h2>University Rover Chassis</h2>
+          <p>Harvard Undergraduate Rover Club · Manufacturing Engineer</p>
+        </div>
+        <p class="project-tags">
+          TIG Welding · Aluminum Fabrication · Design Decisions · Competition Rules
+        </p>
+      </div>
+
+      <img
+        class="project-hero"
+        src="images/rover/chassis.jpg"
+        alt="Welded aluminum chassis for a university rover"
+      >
+
+      <h3>Objective</h3>
+      <p>
+        The chassis project focused on building a strong, manufacturable rover
+        frame while meeting the requirements of the 2026 University Rover
+        Challenge.
+      </p>
+
+      <h3>My Contributions</h3>
+      <ul>
+        <li>
+          Fabricated a 44 × 21.68 × 12 inch chassis from 1-inch square aluminum
+          tubing using TIG welding.
+        </li>
+      </ul>
+
+      <div class="image-row">
+        <figure>
+          <img
+            src="images/rover/frame-layout.jpg"
+            alt="Aluminum tubing arranged for the rover chassis"
+          >
+          <figcaption>Frame layout</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/rover/weld-detail.jpg"
+            alt="Detail of a TIG weld on the aluminum rover chassis"
+          >
+          <figcaption>Aluminum TIG-weld detail</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="project-detail" id="turf-war-robot">
+      <div class="project-heading">
+        <div>
+          <p class="project-date">August–December 2024</p>
+          <h2>Turf War Competition Robot</h2>
+          <p>Five-Person Team Project · Second Place</p>
+        </div>
+        <p class="project-tags">
+          SolidWorks · Motors · Laser Cutting · 3D Printing · Lathe · Mill
+        </p>
+      </div>
+
+      <img
+        class="project-hero"
+        src="images/turf-war-robot/finished.jpg"
+        alt="Completed robot for the Turf War class competition"
+      >
+
+      <h3>Project Overview</h3>
+      <p>
+        Working with a five-person team, I designed and manufactured a
+        robot for a class competition. The finished robot earned second place.
+      </p>
+
+      <h3>Design and Manufacturing</h3>
+      <p>
+        I used SolidWorks modeling and motor-driven mechanisms
+        with laser-cut acrylic, 3D-printed parts, and components made using a
+        lathe and mill.
+      </p>
+    </article>
+
+    <article class="project-detail" id="plywood-canoe">
+      <div class="project-heading">
+        <div>
+          <p class="project-date">August–December 2024</p>
+          <h2>Plywood Canoe</h2>
+          <p>Four-Person Team Project</p>
+        </div>
+        <p class="project-tags">
+          Woodworking · Epoxy · Hand Tools · Team Fabrication · Testing
+        </p>
+      </div>
+
+      <img
+        class="project-hero"
+        src="images/plywood-canoe/finished.jpg"
+        alt="Completed plywood canoe on the water"
+      >
+
+      <h3>Objective</h3>
+      <p>
+        My four-person team built and successfully sailed a 14-foot by 4-foot
+        plywood canoe.
+      </p>
+
+      <h3>Fabrication and Testing</h3>
+      <p>
+        We shaped and assembled the canoe using jigsaws, drills, sanders, and
+        epoxy fabrication techniques. The completed canoe was tested on the
+        Charles River to confirm that it could sail!.
+      </p>
+
+      <div class="image-row">
+        <figure>
+          <img
+            src="images/plywood-canoe/construction.jpg"
+            alt="Plywood canoe during construction"
+          >
+          <figcaption>Hull construction and epoxy work</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/plywood-canoe/testing.jpg"
+            alt="Plywood canoe being tested on the water"
+          >
+          <figcaption>Completed canoe during testing</figcaption>
+        </figure>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2026 Johnna Szkudlarek</p>
+    <p>
+      <a href="mailto:jszkudlarek@college.harvard.edu">Email</a>
+      ·
+      <a href="www.linkedin.com/in/johnna-s-53028a349/">LinkedIn</a>
+    </p>
+  </footer>
 </body>
+
 </html>
